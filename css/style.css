@@ -1,0 +1,126 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Rubik', sans-serif;
+   background: #FFFFFF;
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 200%;
+   color: #828282;
+   margin: 0;
+   padding: 0;
+   width: 1920px;
+}
+
+.body-back-image {
+   display: block;
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   left: 85px;
+   top: 88px;
+   width: 170px;
+   height: 170px;
+   max-width: 100%;
+   background: url(../picture/White-Glossy.svg) 50px 88px no-repeat;
+   filter: blur(11px);
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #828282;;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   align-items: center;
+   justify-content: center;
+   background: url(../picture/top-background.svg) 1218px 162px no-repeat;
+   width: 1460px;
+   margin: 0 auto;
+   border: 1px solid black;
+}
+
+.top-line {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   flex-grow: 1;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding: 0;
+   width: 1460px;
+   margin: 0;
+}
+
+.site-logo {
+   margin-top: 45px;
+   width: 250px;
+   height: 40px; 
+}
+
+.top-nav {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0;
+   margin-top: 33px;
+   height: 60px;
+}
+
+.top-nav-item {
+   display: block;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 150%;
+   margin-left: 57px;
+   padding: 0;
+}
+
+.top-nav-item:first-child {
+   margin-left: 0px;
+} 
+
+.language-list {
+   display: block;
+   border: none;
+}
+
+.lang {
+   display: block;
+   width: 81px;
+   height: 66px;
+}
+
+.header-content {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   flex-grow: 1;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: auto;
+   height: 740px;
+   border: 1px solid red;
+}
+
+.header-right {
+   justify-self: flex-end;
+   width: 848px;
+   height: 477px;
+}
+
+.header-left {
+   justify-self: flex-start;
+   height: 740px;
+
+}
