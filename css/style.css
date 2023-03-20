@@ -11,6 +11,7 @@ body {
    margin: 0;
    padding: 0;
    width: 1920px;
+   background: url(../picture/top-background.svg) 1218px 162px no-repeat;
 }
 
 .body-back-image {
@@ -42,10 +43,8 @@ a {
    flex-grow: 1;
    align-items: center;
    justify-content: center;
-   background: url(../picture/top-background.svg) 1218px 162px no-repeat;
    width: 1460px;
    margin: 0 auto;
-   border: 1px solid black;
 }
 
 .top-line {
@@ -109,18 +108,110 @@ a {
    align-items: center;
    justify-content: space-between;
    margin-left: auto;
-   height: 740px;
-   border: 1px solid red;
+   height: 800px;
 }
 
 .header-right {
    justify-self: flex-end;
-   width: 848px;
-   height: 477px;
+   align-self: flex-start;
+   margin-top: 139px;
+   margin-right: -35px;
+}
+
+.header-right-text {
+   display: block;
+   position: relative;
+   width: 282px;
+   height: 108px;
+   margin-left: 367px;
+   margin-top: -47px;
+   background: rgba(196, 196, 196, 0.1);
+   border: 1px solid rgba(255, 255, 255, 0.15);
+   backdrop-filter: blur(20px);
+   border-radius: 10px;
+}
+
+.header-right-text span {
+   display: block;
+   position: relative;
+   margin: 28px 52px;
+   width: 182px;
+   height: 52px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #FFFFFF;
 }
 
 .header-left {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   align-items: flex-start;
+   justify-content: flex-start;
    justify-self: flex-start;
    height: 740px;
+   width: 490px;
+   margin-right: 210px;
+}
 
+.header-title {
+   font-weight: 700;
+   font-size: 48px;
+   text-align: left;
+   line-height: 57px;
+   margin-top: 130px;
+   margin-bottom: ;
+   color: #131313;
+}
+
+.deko {
+   padding: 0;
+   color: #7421B0;
+   background: rgba(116, 33, 176, 0.16);
+   border: 1px solid #7421B0;
+}
+
+.header-text {
+   display: block;
+   position: relative;
+   padding: 0;
+   width: 450px;
+   margin-top: -10px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 200%;
+   color: #828282;
+}
+
+.button {
+   display: block;
+   position: relative;
+   width: 235px;
+   padding: 0;
+   height: 70;
+   background: linear-gradient(97.02deg, #7421B0 28.9%, #D08EFF 139.98%);
+   border-radius: 5px;
+   margin-top: 50px;
+   border: #7421B0;
+}
+
+.button span {
+   display: block;
+   position: relative;
+   margin: 23px 41px;
+}
+
+.button span a {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+}
+
+.arrow-to-down {
+   display: block;
+   position: relative;
+   margin-top: 126px;
 }
